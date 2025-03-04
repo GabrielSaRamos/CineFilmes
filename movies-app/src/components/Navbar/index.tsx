@@ -25,13 +25,12 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className='nav-title'>
-                <h1 className="page-title"><a href="">Cinemack</a></h1>
-        
+                <h1 className="page-title"><a href="">Cinemack</a></h1> 
             </div>
             <Links>
-                <a href='#'>Movies</a>
-                <a href='#'>Series</a>
-                <a href='#'>Favorites</a>
+                <a href='/movies'>Movies</a>
+                <a href='/series'>Series</a>
+                <a href='/favorites'>Favorites</a>
             </Links>
 
             <BarraPesquisa />
