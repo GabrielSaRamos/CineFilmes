@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #0f172a;
+    padding: 12px 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    
+    .page-title {
+       font-size: 36px;
+       color: #fff;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
